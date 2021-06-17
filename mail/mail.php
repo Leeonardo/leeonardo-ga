@@ -11,8 +11,12 @@ Message: ".$message."
 
 ";
 
-mail ("name@youremail.com" , "New Message", $email_message);
-header("location: ../mail-success.html ");
+mail ("leeonardo.r23@gmail.com" , "PagWeb", $email_message);
+header("location:gracias.html ");
+
+
+
+
 ?>
 
 
