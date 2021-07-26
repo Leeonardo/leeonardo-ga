@@ -12,7 +12,7 @@ Message: ".$message."
 ";
 
 mail ("leeonardo.r23@gmail.com" , "PagWeb", $email_message);
-header("location:gracias.html ");
+header("location: ../gracias.html ");
 
 
 
